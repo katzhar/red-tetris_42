@@ -1,0 +1,38 @@
+
+.container {
+  height: 80vh;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+}
+
+.link {
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: TetrisManiaType;
+
+  &:hover {
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-name: bounce;
+  }
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+    color: black;
+  }
+  25% {
+    transform: translateY(-10px);
+    color: #007975;
+  }
+  100% {
+    transform: translateY(0px);
+    color: black;
+  }
+}
+
+

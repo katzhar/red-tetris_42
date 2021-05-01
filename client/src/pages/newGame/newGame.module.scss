@@ -1,0 +1,40 @@
+
+.container {
+display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.link {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-family: TetrisManiaType;
+  &:hover {
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-name: bounce;
+  }
+}
+
+@keyframes bounce {
+  0% {
+    color: black;
+  }
+  25% {
+    color: #007975;
+  }
+  100% {
+    color: black;
+  }
+}
+.copy{
+  margin-left: 10px;
+  width: 25px;
+  cursor: pointer;
+}
+.input{
+  font-family: TetrisManiaType;
+ display: inline;
+}
+
+

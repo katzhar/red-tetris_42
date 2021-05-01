@@ -1,0 +1,32 @@
+.wrapperPixel{
+  display: flex;
+  width: 30px;
+  height: 30px;
+  border: 3px solid #869471;
+  margin: 2px;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.wrapperPixelBlack{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border: 3px solid black;
+  margin: 2px;
+}
+
+.pixel {
+  width: 20px;
+  height: 20px;
+  background-color: #869471;
+}
+
+.pixelBlack {
+  width: 20px;
+  height: 20px;
+  background-color: black;
+}

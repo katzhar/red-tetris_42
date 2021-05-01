@@ -1,0 +1,67 @@
+.containerStr {
+  display: flex;
+  flex-direction: row;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.started {
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  width: 100px;
+  color: white;
+  font-family: TetrisManiaType;
+  cursor: pointer;
+  margin-left: 10px;
+  background-color: black;
+  border-radius: 3px;
+  height: 40px;
+
+  &:hover {
+    background-color: #0b3861;
+  }
+}
+
+
+.containerMap {
+  width: 400px;
+  margin-left: 10px;
+  background-color: #9eae86;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+}
+
+.copy {
+  margin-left: 5px;
+  margin-bottom: -5px;
+  width: 25px;
+  cursor: pointer;
+}
+
+.link {
+  font-family: TetrisManiaType;
+  display: inline;
+}
+
+.map {
+  width: 520px;
+  display: flex;
+  flex-direction: row;
+}
+
+.otherMap {
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  height: 50%;
+}
+
